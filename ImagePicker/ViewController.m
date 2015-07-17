@@ -79,7 +79,7 @@
     UIImage *getImage = [UIImage imageNamed:@"plant_test"];
     UIImage *combinationImage = [self addImage:getImage toImage:image]; // 组合照片
     self.imageView.image = combinationImage;
-//    [self savePictureToLibratyWithImage:combinationImage];  // 写入相册
+    [self savePictureToLibratyWithImage:combinationImage];  // 写入相册
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
