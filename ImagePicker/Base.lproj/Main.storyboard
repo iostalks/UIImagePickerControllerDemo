@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9V-ib-uLp">
+                                <rect key="frame" x="209" y="555" width="183" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="G01-2E-hC0"/>
+                                    <constraint firstAttribute="width" constant="183" id="U4U-lP-8EI"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HIu-Db-KQI"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N9M-Qu-ZmM">
+                                <rect key="frame" x="140" y="52" width="320" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="OHx-19-ABr"/>
+                                    <constraint firstAttribute="height" constant="240" id="TGu-4R-yZX"/>
+                                    <constraint firstAttribute="width" constant="480" id="YEQ-eH-k4o"/>
+                                    <constraint firstAttribute="width" constant="320" id="bPp-94-HjX"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OHx-19-ABr"/>
+                                        <exclude reference="YEQ-eH-k4o"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="N9M-Qu-ZmM" secondAttribute="centerX" id="2fY-kB-Ozv"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="B9V-ib-uLp" secondAttribute="bottom" constant="15" id="KQs-CF-sYn"/>
+                            <constraint firstItem="N9M-Qu-ZmM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="YXb-pp-Ss8"/>
+                            <constraint firstAttribute="centerX" secondItem="B9V-ib-uLp" secondAttribute="centerX" id="v7a-C4-JAu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="N9M-Qu-ZmM" id="NHq-io-zZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="314"/>
+        </scene>
+    </scenes>
+</document>

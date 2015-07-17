@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50F31727-12B1-491A-B86C-F3F96621EB5D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImagePicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D82C2D46BCE5B46B9499A5762D661AE4E530F7D8</key>
+		<string>https://github.com/Aioser/DyLib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>201507/ImagePicker/ImagePicker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D82C2D46BCE5B46B9499A5762D661AE4E530F7D8</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Aioser/DyLib.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D82C2D46BCE5B46B9499A5762D661AE4E530F7D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D82C2D46BCE5B46B9499A5762D661AE4E530F7D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
